@@ -5,6 +5,9 @@
     
     box-sizing: border-box;
     }
+    body {
+        margin: 10;
+    }
 .skipToMainContent {
         background-color: black;
         color: white;
