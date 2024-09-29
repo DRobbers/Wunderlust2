@@ -5,8 +5,8 @@
     
     box-sizing: border-box;
     }
-    body {
-        padding: 10px;
+    .margin {
+        padding-left: 10px;
     }
 .skipToMainContent {
         background-color: black;
