@@ -207,50 +207,59 @@
 </section>
 </main>
 <section class="form">
-  
+ 
   <h2>Contact Us</h2> 
-  <fieldset>
+  <form>
   <label for="firstName">First Name:</label>
  <input type="text" id="fistName" name="firstname" required placeholder=" (Enter first name)">
  <br><br>
-  
+</form>
 
+<form>
+  <label for="lastName">Last Name:</label>
+  <input type="text" id="lastName" name="lastname" required placeholder=" (Enter last name)">
+  <br><br>
+</form>
 
- <label for="lastName">Last Name:</label>
- <input type="text" id="lastName" name="lastname" required placeholder=" (Enter last name)">
- <br><br>
-  </fieldset>
+  <legend>Contact Method</legend>
+  <input type="radio" id="contactEmail" name="contactMethod" value="email" required>
+  <label for="contactEmail">Email</label>
+  <input type="radio" id="contactText" name="contactMethod" value="text">
+  <label for="contactText">Text</label>
+  <input type="radio" id="contactPhone" name="contactMethod" value="Phone">
+  <label for="contactPhone">Phone</label>
+  <br><br>
+</form>
 
- <fieldset> 
-<legend>Contact Method</legend>
-<input type="radio" id="contactEmail" name="contactMethod" value="email" required>
-<label for="contactEmail">Email</label><br>
-<input type="radio" id="contactText" name="contactMethod" value="text">
-<label for="contactText">Text</label><br>
-<input type="radio" id="contactPhone" name="contactMethod" value="Phone">
-<label for="contactPhone">Phone</label><br><br>
-</fieldset>
-
-<fieldset> 
+<form> 
   <label for="email">Email:</label>
   <input type="email" id="email" name="email" required placeholder=" (Enter Email)">
   <br><br>
-</fieldset>
+</form>
 
- <fieldset> 
+ <form> 
   <label for="phoneNumber">Phone Number:</label>
   <input type="tel" id="phonr" name="phone" required placeholder=" (Enter telephone number)">
   <br><br>
- </fieldset>
+ </form>
 
+ <label for="desitination">Destination:</label>
+  <select id="desitination" name="desitination" required>
+  <option value="granada">Granada</option>
+  <option value="Ibiza">Ibiza</option>
+  <option value="Madrid">Madrid</option>
+  <option value="majorca">Majorca</option>
+  <option value="seville">Seville</option>
+  <option value="tenerife">Tenerife</option>
+  <option value="valencia">Valencia</option>
+</select>
 
-Destination (Barcelona, Granada, Ibiza, Madrid, Majorca, Seville, Tenerife, Valencia)
 Travel Time (Fall, Winter, Spring, Summer, Flexible)
-</fieldset>
+
 
 
 <button>Submit</button>
-</fieldset>
+
 </section>
 
 
