@@ -208,14 +208,27 @@
 </main>
 <section class="form">
   <h2>Contact Us</h2> 
- <form for="firstName">First Name:</form>
- <input type="text" id="fistname" name="firstname" required placeholder=" (Enter first name)">
+ <form>
+  <label for="firstName">First Name:</label>
+ <input type="text" id="fistName" name="firstname" required placeholder=" (Enter first name)">
  <br><br>
 </form>
 
-Last Name (Enter last name)
+<form> 
+ <label for="lastName">Last Name:</label>
+ <input type="text" id="lastName" name="lastname" required placeholder=" (Enter last name)">
+ <br><br>
+</form>
 
-Contact Method (Email, Text, Phone)
+<label>Contact Method</label>
+<input type="radio" id="contactEmail" name="contactMethod" value="email" required>
+<label for="contactEmail">Email</label><br>
+<input type="radio" id="contactText" name="contactMethod" value="text">
+<label for="contactText">Text</label><br>
+<input type="radio" id="contactPhone" name="contactMethod" value="Phone">
+<label for="contactPhone">Phone</label><br><br>
+
+
 Email Address (Enter Email)
 Phone Number (Enter telephone number)
 
