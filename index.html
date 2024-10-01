@@ -34,11 +34,29 @@
 <h2>Majorca</h2>
 <p>Imagine an island with turquoise blue waters, secret coves, soft golden sands, lush green foliage, rugged mountains, picturesque villages and a vibrant capital city. The island and its capital, Palma, are overflowing with character, while its beaches are famous all around the world, making it one of the most sought-after summer destinations.
 </p>
-
+<!--
 <img src="Images/majorca-waves-L.png" alt="picture of majorca-waves" />
 <img src="Images/majorca-beach-L.png" alt="picture of majorca-beach" /> 
 <img src="Images/majorca-cove-L.png"  alt="picture of majorca-cove" />
-
+-->
+<picture class="waves">
+  <source media="(min-width: 1024px)" srcset=Images/majorca-waves-L.png  alt="picture of majorca-waves L"/>
+   <source media="(max-width: 320px)" srcset=Images/majorca-waves-S.png alt="picture of majorca-waves S"/>
+   <source media="(max-width: 780px)" srcset=Images/majorca-waves-M.png alt="picture of majorca-waves M"/>
+  <img src=Images/majorca-waves-L.png alt="fallback picture of majorca-waves">
+</picture>
+<picture class="beach">
+  <source media="(min-width: 1024px)" srcset=Images/majorca-beach-L  alt="picture of majorca-beach L"/>
+   <source media="(max-width: 320px)" srcset=Images/majorca-beach-S alt="picture of majorca-beach S"/>
+   <source media="(max-width: 780px)" srcset=Images/majorca-beach-M alt="picture of majorca-beacj M"/>
+  <img src=Images/majorca-beach-L.png alt="fallback picture of majorca-beacj">
+</picture>
+<picture class="cove">
+  <source media="(min-width: 1024px)" srcset=Images/majorca-waves-L.png  alt="picture of majorca-waves L"/>
+   <source media="(max-width: 320px)" srcset=Images/majorca-waves-S.png alt="picture of majorca-waves S"/>
+   <source media="(max-width: 780px)" srcset=Images/majorca-waves-M.png alt="picture of majorca-waves M"/>
+  <img src=Images/majorca-waves-L.png alt="fallback picture of majorca-waves">
+</picture>
 
 <h2>Plan Your Trip</h2>
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
