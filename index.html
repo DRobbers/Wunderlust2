@@ -220,7 +220,7 @@
  <br><br>
 </form>
 
-<label>Contact Method</label>
+<label>Contact Method</label><br>
 <input type="radio" id="contactEmail" name="contactMethod" value="email" required>
 <label for="contactEmail">Email</label><br>
 <input type="radio" id="contactText" name="contactMethod" value="text">
@@ -228,8 +228,17 @@
 <input type="radio" id="contactPhone" name="contactMethod" value="Phone">
 <label for="contactPhone">Phone</label><br><br>
 
+<form> 
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" required placeholder=" (Enter Email)">
+  <br><br>
+ </form>
 
-Email Address (Enter Email)
+ <form> 
+  <label for="phoneNumber">Phone Number:</label>
+  <input type="tel" id="phonr" name="phone" required placeholder=" (Enter Phone)">
+  <br><br>
+ </form>
 Phone Number (Enter telephone number)
 
 Destination (Barcelona, Granada, Ibiza, Madrid, Majorca, Seville, Tenerife, Valencia)
