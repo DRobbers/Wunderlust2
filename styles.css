@@ -87,7 +87,7 @@
         padding: 0.5em 0 1em 0.5em;
         margin: 0.75em 0 0.25em 0;
         width: 98%;
-        display: grid;
+        display: inline-block;
         grid-template-columns: 1fr 3fr 1fr 3fr;
       }
       
